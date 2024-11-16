@@ -29,5 +29,6 @@ namespace CSharpEgitimKampiMY301.EFProject
         public virtual DbSet<TblCustomer> TblCustomer { get; set; }
         public virtual DbSet<TblGuide> TblGuide { get; set; }
         public virtual DbSet<TblLocation> TblLocation { get; set; }
+        public virtual DbSet<TblAdmin> TblAdmin { get; set; }
     }
 }
