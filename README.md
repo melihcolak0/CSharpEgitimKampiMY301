@@ -15,3 +15,6 @@ Bu projede Entity Framework'de Database First (Var Olan Veri tabanını Kullanma
 
 ## :pushpin: Proje 5 -> ORM Yapısı: Entity Framework Metotları ile Proje Uygulaması
 Bu projede Entity Framework metotlarını kullanarak basit bir proje oluşturdum. Projede Listeleme, Ekleme, Silme, Güncelleme ve Id'ye Göre Getirme işlemlerini öncesinde bir Form ekranında butonlara atayarak kullandım. Sonrasında bu butonları kullanarak Entity Framework sayesinde SQL komutları kullanmadan DataGridView üzerinde veri tabanı işlemlerini uyguladım.
+
+## :pushpin: Proje 6 -> ORM Yapısı: Entity Framework'de Tur Projesi ve Location İşlemleri
+Bu projede Entity Framework metotlarını kullanarak, bir önceki projede oluşturmuş olduğum projeye, bir başka Form ekledim. Bu Form üzerinden MS SQL Server'da oluşturmuş olduğum TblLocation isimli tablonun verileri ile Listeleme, Ekleme, Silme ve Güncelleme işlemlerini bir buton kullanarak ve DataGridView üzerinde görüntüleyerek oluşturdum.
