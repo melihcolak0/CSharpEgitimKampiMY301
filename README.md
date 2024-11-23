@@ -18,3 +18,10 @@ Bu projede Entity Framework metotlarını kullanarak basit bir proje oluşturdum
 
 ## :pushpin: Proje 6 -> ORM Yapısı: Entity Framework'de Tur Projesi ve Location İşlemleri
 Bu projede Entity Framework metotlarını kullanarak, bir önceki projede oluşturmuş olduğum projeye, bir başka Form ekledim. Bu Form üzerinden MS SQL Server'da oluşturmuş olduğum TblLocation isimli tablonun verileri ile Listeleme, Ekleme, Silme ve Güncelleme işlemlerini bir buton kullanarak ve DataGridView üzerinde görüntüleyerek oluşturdum.
+
+## :pushpin: Proje 7 -> ORM Yapısı: Entity Framework Metotları ve Linq Sorgular
+Bu projede Entity Framework metotlarını kullanarak, bir önceki projede oluşturmuş olduğum projenin Lokasyon tablosunun istatistiklerini çıkardım. Lokasyon Sayısı, Toplam Kapasite, Rehber Sayısı, Ortalama Kapasite, Ortalama Tur Fiyatı, Eklenen Son Ülke, Kapadokya Tur Kapasitesi, Türkiye Turları Ortalama Kapasite, Roma Tur Rehberi, En Yüksek Kapasiteli Tur, En Pahalı Tur ve Ayşegül Çınar Tur Sayısı gibi istatistikleri MS SQL Server üzerinden LINQ sorguları ile alarak Windows Form üzerinde label kullanarak yazdırdım. Aşağıda oluşturmuş olduğum FrmStatistics formunu görebilirsiniz:
+
+<div align="center">
+  <img src="https://github.com/melihcolak0/CSharpEgitimKampiMY301/blob/ac72eb081f3ef57cc0425d418281b3ed496a368f/locationStatisticsSS.jpg" alt="image alt">
+</div>
