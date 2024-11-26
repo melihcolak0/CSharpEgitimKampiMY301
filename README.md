@@ -25,3 +25,6 @@ Bu projede Entity Framework metotlarını kullanarak, bir önceki projede oluşt
 <div align="center">
   <img src="https://github.com/melihcolak0/CSharpEgitimKampiMY301/blob/ac72eb081f3ef57cc0425d418281b3ed496a368f/locationStatisticsSS.jpg" alt="image alt">
 </div>
+
+## :pushpin: Proje 8 -> OOP Modülü: Dört Katmanlı Mimaride EntityState Komutları, Generic Repository Sınıfı ve Entity Framework Sınıfları
+Bu projede OOP ile oluşturduğumuz dört katmanlı mimaride ilk olarak GenericRepository'i oluşturdum. GenericRepository, yazılım tasarımında sık kullanılan bir desen (design pattern) olan Repository Pattern'in jenerik (generic) bir uygulamasıdır. Repository Pattern, bir uygulamanın veri erişim katmanını (Data Access Layer - DAL) soyutlamak ve yönetilebilir hale getirmek için kullanılır. GenericRepository, bu yapıyı tüm varlıklar (entities) için genelleştirerek tekrar eden kodları ortadan kaldırır ve modüler bir yapı sunar. EfAdminDal, EfCustomerDal gibi eklediğim sınıflar, Entity Framework kullanılarak oluşturulmuş ve Data Access Layer (DAL) içerisinde yer alan veri erişim sınıflarıdır. Bu sınıflar, Entity Framework'ün özelliklerini kullanarak veritabanıyla etkileşim kurar. Her bir sınıf, belirli bir entity (varlık) ile ilgili CRUD (Create, Read, Update, Delete) işlemlerini veya özel sorguları gerçekleştirir.
