@@ -13,6 +13,5 @@ namespace CSharpEgitimKampiMY301.DataAccessLayer.Abstract
         void Delete(T entity);
         List<T> GetAll();
         T GetById(int id);
-
     }
 }
