@@ -37,3 +37,6 @@ Bu projede OOP ile oluşturduğumuz dört katmanlı mimaride bir önceki projede
 
 ## :pushpin: Proje 11 -> OOP Modülü: Dört Katmanlı Mimaride Entity'e Özgü Metot Yazmak
 Bu projede OOP ile oluşturduğumuz dört katmanlı mimaride Product Entity'si için CRUD (Create, Read, Update, Delete) işlemlerini yapacak FrmProduct isminde bir form oluşturdum. Bu formun listeleme işlemi için Entity'e özgü bir metot kullandım. GetProductsWithCategory adında, sadece Product Entity'si için özel bir metot yazdım. Entity'ye özgü metot yazmak, katmanlı mimaride kullanılan veri erişim katmanında (Data Access Layer), bir entity (varlık) için özel bir işlev gerçekleştiren metotlar tanımlamak anlamına gelir. Bu metotlar, genellikle belirli bir entity ile ilgili özel bir sorgu veya işlem için yazılır ve genel CRUD işlemlerinin dışında bir amaca hizmet eder. Amacı, ürün bilgileriyle birlikte her ürünün kategori adını getirmektir.
+
+## :pushpin: Proje 12 -> OOP Modülü: Dört Katmanlı Mimaride FrmProduct Formu
+Bu projede OOP ile oluşturduğumuz dört katmanlı mimaride bir önceki projede Product Entity'si için oluşturmuş olduğum FrmProduct formunun Ekleme, Silme, Güncelleme ve Id'ye Göre Getirme işlemlerini tamamladım. Böylelikle bu projenin #301 modülünü tamamladım.
